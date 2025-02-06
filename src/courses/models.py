@@ -25,7 +25,6 @@ class Course(models.Model):
         choices=PublishStatus.choices,
         default=PublishStatus.DRAFT
     )
-    pass
 
     @property
     def is_published(self):
